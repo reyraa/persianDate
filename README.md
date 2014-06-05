@@ -1,5 +1,5 @@
 #PersianDate
->is a free and open source libraary to convert Gerogian date to Persian ( Jalali ) calendar date.
+>is a free and open source library to convert Georgian date to Persian ( Jalali ) calendar date.
 
 ## how to use
 Just link the library to your page it's done!
