@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF8">
+	<title>Persian Date</title>
+	<script type="text/javascript" src="persianDate.js"></script>
+	<style type="text/css">
+		body
+		{
+			font-family: sans-serif;
+			padding: 50px;
+			color: #333;
+		}
+		code
+		{
+			padding: 20px;
+			background-color: #f1f1f1;
+			display: block;
+		}
+		p
+		{
+			background-color: #f1ffff;
+			padding: 20px;
+			font-family: tahoma;
+		}
+	</style>
+</head>
+	
+<body>
+
+	<h1>Sample usages for persianDate library</h1>
+
+
+	<h2>getDay()</h2>
+	<code>&lt;script type="text/javascript"&gt;<br>persianDate.getDay('name');<br>&lt;/script&gt;</code>
+	<p id="getDay"></p>
+	<script type="text/javascript">
+		document.getElementById('getDay').innerHTML = persianDate.getDay('name') ;
+	</script>
+
+
+
+	<h2>getYear()</h2>
+	<code>&lt;script type="text/javascript"&gt;<br>persianDate.getYear();<br>&lt;/script&gt;</code>
+	<p id="getYear"></p>
+	<script type="text/javascript">
+		document.getElementById('getYear').innerHTML = persianDate.getYear('short');
+	</script>
+
+
+
+	<h2>toJSON()</h2>
+	<code>&lt;script type="text/javascript"&gt;<br>persianDate.toJSON();<br>&lt;/script&gt;</code>
+	<p id="toJSON"></p>
+	<script type="text/javascript">
+		document.getElementById('toJSON').innerHTML = persianDate.toJSON();
+	</script>
+
+
+
+
+
+</body>
+</html>
