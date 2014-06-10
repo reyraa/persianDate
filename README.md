@@ -5,24 +5,30 @@
 Just link the library to your page it's done!
 
 ## Methods
-**1)** getDay() 
-	> returns a number between 0 and 6, representing the day in week. pass 'name' as parameter and it'll return the name of the day in Persian
------
-**2)** getDate() 
-	> returns a number between 1 and 31, representing the day in month.
------
-**3)**getMonth()
-	>returns a number between 0 and 11 representing the month in year. pass 'name' as parameter and it'll return the name of the month in Persian
------
-**4)**getYear()
-	>returns a four digit number as year. also you can pass the string 'short', and get the year in two digits
------
-**5)**getFullDate()
-	>returns an object containing day , month and year.
------
-**6)**toJSON()
-	>returns astring in the standard Persian date format: yyyy/mm/dd
------
+**1) getDay()**
+
+returns a number between 0 and 6, representing the day in week. pass 'name' as parameter and it'll return the name of the -day in Persian
+
+**2) getDate()** 
+
+returns a number between 1 and 31, representing the day in month.
+
+**3) getMonth()**
+
+-returns a number between 0 and 11 representing the month in year. pass 'name' as parameter and it'll return the name of the month in Persian
+
+**4) getYear()**
+
+-returns a four digit number as year. also you can pass the string 'short', and get the year in two digits
+
+**5) getFullDate()**
+
+-returns an object containing day , month and year.
+
+**6) toJSON()**
+
+-returns astring in the standard Persian date format: yyyy/mm/dd
+
 
 
 
